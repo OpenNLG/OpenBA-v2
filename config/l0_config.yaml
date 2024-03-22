@@ -1,0 +1,11 @@
+prune_type: "l0"
+start_sparsity: 0.0
+target_sparsity: 0.5
+pruning_modules: ["intermediate"]
+lagrangian_warmup_steps: 200
+target_model:
+  hidden_size: 4096
+  num_attention_heads: 40 
+  ffn_hidden_size: 12228 
+  encoder_num_layers: 3
+  decoder_num_layers: 3
