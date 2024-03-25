@@ -168,7 +168,7 @@ bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 <div align=center><img width="500" src="assets/emb.png"/></div>
 </center>
 
-词表裁剪代码以及使用说明请参考 [这里]().
+词表裁剪代码以及使用说明请参考 [这里](./training/prune_vocab_emb/README.md).
 
 ## 详细信息
 
@@ -182,9 +182,8 @@ bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 
 我们的英文预训练数据主要由Pile和RedPajama整理收集而来，中文预训练数据从浪潮、万卷、SkyPile、CBook和各类百科（Wiki、百度百科）收集而来。最终预训练数据共有4.4TB，分布如下
 
-
-<div align=center><img width="500" src="assets/pretrain_data.png
-"/></div>
+<center>
+<div align=center><img width="500" src="assets/pretrain_data.png"/></div>
 </center>
 
 
@@ -193,8 +192,7 @@ bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 我们英文Flan数据主要由开源的Flan Collection和MathInstruct构成，中文数据为我们自己收集，涵盖18类自然语言处理任务。最终使用18,850,185条样本，分布如下
 
 <center>
-<div align=center><img width="500" src="assets/instruction_data.png
-"/></div>
+<div align=center><img width="500" src="assets/instruction_data.png"/></div>
 </center>
 
 ## 免责声明
