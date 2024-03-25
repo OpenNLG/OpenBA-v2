@@ -62,7 +62,7 @@ def main(args):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_type",type=str,default="mmap")
-    parser.add_argument("--data_path",type=str,default="/home/amax/qd/LEO_V2_DEV/LEO_debug/emb_pruner/mmlu.json")
+    parser.add_argument("--data_path",type=str)
     parser.add_argument("--vocab_freq",type=str,help="the prefix name for the vocab freq file")
     parser.add_argument("--model_name",type=str,default="llama")
     parser.add_argument("--spm",type=str,default="/nvme/hf_models/Llama-2-7b-hf/tokenizer.model",help="path of the sentencepiece model")
