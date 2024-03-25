@@ -1,14 +1,15 @@
 # OpenBA-V2: Reaching 77.3% High Compression Ratio with Fast Multi-Stage Pruning
 这是OpenBA-V2的官方代码。OpenBA-V2是OpenBA的二代模型，通过多阶段模型裁剪获得。模型仅有3.4B参数量，相较于第一代模型裁剪了77.3%的模型参数，但拥有接近的模型性能。
 整个裁剪过程涉及到layer裁剪，neural裁剪，以及词表-embedding裁剪等多个技术，在我们的技术报告中有详细说明。
+<p align="center">
+ <a href=""><img alt="Code License" src="https://img.shields.io/badge/Code%20License-Apache_2.0-brightgreen.svg"></a>
+  <a href=""><img alt="ata License" src="https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-blue.svg"></a>
+   <a href=""><img alt="Model License" src="https://img.shields.io/badge/Model%20License-GNU%20AGPL%203.0-red.svg"></a>
+       <a href=""><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗 HuggingFace-Pretrained Models-green"></a>
+    <a href="https://arxiv.org/abs/2402.16602"><img alt="Paper" src="https://img.shields.io/badge/📄-Paper-orange"></a>
+    <a href="https://opennlg.cn/"><img src="https://img.shields.io/badge/Organization-OpenNLG%20Group-blueviolet"></a>
+</p>
 
-
-
-[![代码许可](https://img.shields.io/badge/Code%20License-Apache_2.0-brightgreen.svg)](LICENSE)
-[![数据许可](https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-blue.svg)](DATA_LICENSE)
-[![模型许可](https://img.shields.io/badge/Model%20License-GNU%20AGPL%203.0-red.svg)](MODEL_LICENSE)
-
-[[中文版](README_ZH.md)] [[English](README.md)]
 
 ## 目录
 - [开源计划](#开源计划)
