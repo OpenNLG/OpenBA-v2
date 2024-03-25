@@ -24,12 +24,9 @@
   - [训练数据](#训练数据)
 - [免责声明](#免责声明)
 
-<p align="center" width="100%">
-<a target="_blank"><img src="assets/downstream.png"  style="width: 100%; min-width: 300px; display: block; margin: auto;"></a>
-</p>
 
 ## 开源计划
-我们将开源多个版本的模型，现在正在上传中。
+我们将开源多个版本的模型，目前正在整理中，将于近期上传。
 
 
 ## 训练过程
@@ -155,6 +152,7 @@ bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 <div align=center><img width="500" src="assets/emb.png"/></div>
 </center>
 
+词表裁剪代码以及使用说明请参考 [这里]("https://github.com/jordddan/OpenBA-v2/blob/main/training/prune_vocab_emb/README.md").
 
 ## 免责声明
 使用OpenBA-LM应遵循社会规范，不得用于危害国家或社会安全或违反法律的活动。此外，我们还要求用户不要将OpenBA-LM用于尚未经过适当安全审查和记录的互联网服务。我们希望所有用户都遵守这一原则，确保技术发展在一个有序、合法的环境中进行。
