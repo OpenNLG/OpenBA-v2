@@ -151,7 +151,7 @@ bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 模型词表裁剪也是本项目的一个亮点，仅裁剪不常用的词表，可以裁剪近10%的参数而完全不损害模型性能。我们做了分析实验，一般来说，中文词需求的词表较少，而英文需要的模型词表较多，实验结果如下
 
 <center>
-<img src="assets/emb.png" width="400">
+<div align=center><img width="500" src="assets/emb.png"/></div>
 </center>
 
 
