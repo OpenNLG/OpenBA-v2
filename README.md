@@ -1,6 +1,5 @@
 # OpenBA-V2: Reaching 77.3% High Compression Ratio with Fast Multi-Stage Pruning
-这是OpenBA-V2的官方代码。OpenBA-V2是OpenBA的二代模型，通过多阶段模型裁剪获得。模型仅有3.4B参数量，相较于第一代模型裁剪了77.3%的模型参数，但拥有接近的模型性能。
-整个裁剪过程涉及到layer裁剪，neural裁剪，以及词表-embedding裁剪等多个技术，在我们的技术报告中有详细说明。
+
 <p align="center">
  <a href=""><img alt="Code License" src="https://img.shields.io/badge/Code%20License-Apache_2.0-brightgreen.svg"></a>
   <a href=""><img alt="ata License" src="https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-blue.svg"></a>
@@ -9,7 +8,8 @@
     <a href="https://arxiv.org/abs/2402.16602"><img alt="Paper" src="https://img.shields.io/badge/📄-Paper-orange"></a>
     <a href="https://opennlg.cn/"><img src="https://img.shields.io/badge/Organization-OpenNLG%20Group-blueviolet"></a>
 </p>
-
+这是OpenBA-V2的官方代码。OpenBA-V2是OpenBA的二代模型，通过多阶段模型裁剪获得。模型仅有3.4B参数量，相较于第一代模型裁剪了77.3%的模型参数，但拥有接近的模型性能。
+整个裁剪过程涉及到layer裁剪，neural裁剪，以及词表-embedding裁剪等多个技术，在我们的技术报告中有详细说明。
 
 ## 目录
 - [开源计划](#开源计划)
@@ -33,13 +33,13 @@
 我们通过多阶段的模型裁剪将模型逐渐从15B裁剪至3.4B，模型每个阶段的参数以及使用的目标函数如下：
 | Models | #Params | Enc | Dec | Hidden | FFN | Heads | Data | Objective | Flops $\left(\times 10^{20}\right)$ |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| OpenBA | $\mathrm{15B}$ | 12 | 36 | 4,096 | 11,008 | 40 | $350 \mathrm{~B}$ | UL2 | 277.1 |
-| Stage1 | $12.3 \mathrm{~B}$ | 10 | 30 | 4,096 | 11,008 | 40 | $10 \mathrm{~B}$ | D-UL2 | 6.7 |
-| Stage2 | $11.0 \mathrm{~B}$ | 8 | 27 | 4,096 | 11,008 | 40 | $10 \mathrm{~B}$ | D-UL2 | 5.9 |
-| Stage3 | $9.9 \mathrm{~B}$ | 8 | 24 | 4,096 | 11,008 | 40 | $15 \mathrm{~B}$ | D-UL2 | 8.1 |
-| Stage4 | $3.8 \mathrm{~B}$ | 8 | 24 | 2,560 | 6,912 | 20 | $65 \mathrm{~B}$ | D-UL2 | 13.0 |
-| Stage5 | $3.8 \mathrm{~B}$ | 8 | 24 | 2,560 | 6,912 | 20 | $700 \mathrm{~B}$ | O-UL2 | 99.1 |
-| Prune Emb | $3.4 \mathrm{~B}$ | 8 | 24 | 2,560 | 6,912 | 20 | - | - | - |
+| OpenBA | 15B | 12 | 36 | 4,096 | 11,008 | 40 | 350 B | UL2 | 277.1 |
+| Stage1 | 12.3B | 10 | 30 | 4,096 | 11,008 | 40 | 10B | D-UL2 | 6.7 |
+| Stage2 | 11.0B | 8 | 27 | 4,096 | 11,008 | 40 | 10B | D-UL2 | 5.9 |
+| Stage3 | 9.9B | 8 | 24 | 4,096 | 11,008 | 40 | 15B | D-UL2 | 8.1 |
+| Stage4 | 3.8B | 8 | 24 | 2,560 | 6,912 | 20 | 65B | D-UL2 | 13.0 |
+| Stage5 | 3.8B | 8 | 24 | 2,560 | 6,912 | 20 | 700B | O-UL2 | 99.1 |
+| Prune Emb | 3.4B | 8 | 24 | 2,560 | 6,912 | 20 | - | - | - |
 
 - OpenBA家族使用的是 [UL2](https://arxiv.org/pdf/2205.05131.pdf) 作为预训练目标函数。在压缩的过程中，我们针对不同的阶段对 UL2 进行了优化，分别有 D-UL2 以及 O-UL2 等变种，分别用于解决裁剪后多种noise不均衡，以及优化UL2训练过程种产生的padding问题。
 - 模型的深度裁剪参考了过去的工作，选择裁剪中间的，相隔较远的非连续层。模型宽度的裁剪参考了 [Sheard-LLaMA](https://github.com/princeton-nlp/LLM-Shearing) 以及 [LLM-Pruner](https://github.com/horseee/LLM-Pruner)，按照模型前向计算的结构依赖关系，以及目标模型配置，随机裁剪矩阵权重的行和列。
