@@ -10,42 +10,24 @@
 </p>
 这是OpenBA-V2的官方代码。OpenBA-V2是OpenBA的二代模型，通过多阶段模型裁剪获得。模型仅有3.4B参数量，相较于第一代模型裁剪了77.3%的模型参数，但拥有接近的模型性能。
 整个裁剪过程涉及到layer裁剪，neural裁剪，以及词表-embedding裁剪等多个技术，在我们的技术报告中有详细说明。
-
+<center>
+<div align=center><img width="500" src="assets/openba.png"/></div>
+</center>
 ## 目录
 
 - [开源计划](#开源计划)
 - [训练过程](#训练过程)
 - [评测结果](#评测结果)
 - [用法](#用法)
-  - [演示](#演示)
-  - [训练](#训练)
-  - [词表裁剪](#词表裁剪)
-- [详细信息](#详细信息)
-  - [模型结构](#模型结构)
+- [训练](#训练)
   - [训练数据](#训练数据)
+  - [模型裁剪](#模型裁剪)
+  - [词表裁剪](#词表裁剪)
 - [免责声明](#免责声明)
 
 ## 开源计划
 
 我们将开源多个版本的模型，目前正在整理中，将于近期上传。
-
-## 训练过程
-
-我们通过多阶段的模型裁剪将模型逐渐从15B裁剪至3.4B，模型每个阶段的参数以及使用的目标函数如下：
-
-| Models    | #Params | Enc | Dec | Hidden |  FFN  | Heads | Data | Objective | Flops$\left(\times 10^{20}\right)$ |
-| :-------- | :-----: | :-: | :-: | :----: | :----: | :---: | :---: | :-------: | :----------------------------------: |
-| OpenBA    |   15B   | 12 | 36 | 4,096 | 11,008 |  40  | 350 B |    UL2    |                277.1                |
-| Stage1    |  12.3B  | 10 | 30 | 4,096 | 11,008 |  40  |  10B  |   D-UL2   |                 6.7                 |
-| Stage2    |  11.0B  |  8  | 27 | 4,096 | 11,008 |  40  |  10B  |   D-UL2   |                 5.9                 |
-| Stage3    |  9.9B  |  8  | 24 | 4,096 | 11,008 |  40  |  15B  |   D-UL2   |                 8.1                 |
-| Stage4    |  3.8B  |  8  | 24 | 2,560 | 6,912 |  20  |  65B  |   D-UL2   |                 13.0                 |
-| Stage5    |  3.8B  |  8  | 24 | 2,560 | 6,912 |  20  | 700B |   O-UL2   |                 99.1                 |
-| Prune Emb |  3.4B  |  8  | 24 | 2,560 | 6,912 |  20  |   -   |     -     |                  -                  |
-
-- OpenBA家族使用的是 [UL2](https://arxiv.org/pdf/2205.05131.pdf) 作为预训练目标函数。在压缩的过程中，我们针对不同的阶段对 UL2 进行了优化，分别有 D-UL2 以及 O-UL2 等变种，分别用于解决裁剪后多种noise不均衡，以及优化UL2训练过程种产生的padding问题。
-- 模型的深度裁剪参考了过去的工作，选择裁剪中间的，相隔较远的非连续层。模型宽度的裁剪参考了 [Sheard-LLaMA](https://github.com/princeton-nlp/LLM-Shearing) 以及 [LLM-Pruner](https://github.com/horseee/LLM-Pruner)，按照模型前向计算的结构依赖关系，以及目标模型配置，随机裁剪矩阵权重的行和列。
-- 以上方法我们在开源的LLaMA2-13B和LLaMA2-7B中继续进行了实验，分别裁剪了模型50%的参数，并在20B的开源数据 [The Pile](https://github.com/EleutherAI/the-pile) 上进行了恢复训练，细节可参考我们的开源仓库：[Pruning-LLM](https://github.com/jordddan/Pruning-LLMs)
 
 ## 评测结果
 
@@ -133,7 +115,7 @@ pip install transformers==4.31.0 torch>=2.0 sentencepiece
 
 UL2使用了特殊token `<S>` 和特殊token `<extra_id_0>` ，所以你可以将输入指令格式化为 `<S> {your input} <extra_id_0>` 以获得更好的答案。
 
-### 训练
+### 训练脚本
 
 我们的训练代码在 `training`文件夹中。基于[Megatron-LM](https://github.com/NVIDIA/Megatron-LM/)，我们进行了以下实现：
 
@@ -160,23 +142,10 @@ bash scripts/split_model.sh  # 转换模型的张量并行大小
 bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 ```
 
-### 词表裁剪
-
-模型词表裁剪也是本项目的一个亮点，仅裁剪不常用的词表，可以裁剪近10%的参数而完全不损害模型性能。我们做了分析实验，一般来说，中文词需求的词表较少，而英文需要的模型词表较多，实验结果如下
-
-<center>
-<div align=center><img width="500" src="assets/emb.png"/></div>
-</center>
-
-词表裁剪代码以及使用说明请参考 [这里](./training/prune_vocab_emb/README.md).
-
-## 详细信息
-
-### 模型结构
+## 模型训练过程
 
 ### 训练数据
 
-我们使用的训练数据均是从开源数据整理而来。
 
 #### 预训练数据
 
@@ -194,6 +163,36 @@ bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 <center>
 <div align=center><img width="400" src="assets/instruction_data.png"/></div>
 </center>
+
+### 训练细节
+我们通过多阶段的模型裁剪将模型逐渐从15B裁剪至3.4B，模型每个阶段的参数以及使用的目标函数如下：
+
+| Models    | #Params | Enc | Dec | Hidden |  FFN  | Heads | Data | Objective | Flops$\left(\times 10^{20}\right)$ |
+| :-------- | :-----: | :-: | :-: | :----: | :----: | :---: | :---: | :-------: | :----------------------------------: |
+| OpenBA    |   15B   | 12 | 36 | 4,096 | 11,008 |  40  | 350 B |    UL2    |                277.1                |
+| Stage1    |  12.3B  | 10 | 30 | 4,096 | 11,008 |  40  |  10B  |   D-UL2   |                 6.7                 |
+| Stage2    |  11.0B  |  8  | 27 | 4,096 | 11,008 |  40  |  10B  |   D-UL2   |                 5.9                 |
+| Stage3    |  9.9B  |  8  | 24 | 4,096 | 11,008 |  40  |  15B  |   D-UL2   |                 8.1                 |
+| Stage4    |  3.8B  |  8  | 24 | 2,560 | 6,912 |  20  |  65B  |   D-UL2   |                 13.0                 |
+| Stage5    |  3.8B  |  8  | 24 | 2,560 | 6,912 |  20  | 700B |   O-UL2   |                 99.1                 |
+| Prune Emb |  3.4B  |  8  | 24 | 2,560 | 6,912 |  20  |   -   |     -     |                  -                  |
+
+- OpenBA家族使用的是 [UL2](https://arxiv.org/pdf/2205.05131.pdf) 作为预训练目标函数。在压缩的过程中，我们针对不同的阶段对 UL2 进行了优化，分别有 D-UL2 以及 O-UL2 等变种，分别用于解决裁剪后多种noise不均衡，以及优化UL2训练过程种产生的padding问题。
+- 模型的深度裁剪参考了过去的工作，选择裁剪中间的，相隔较远的非连续层。模型宽度的裁剪参考了 [Sheard-LLaMA](https://github.com/princeton-nlp/LLM-Shearing) 以及 [LLM-Pruner](https://github.com/horseee/LLM-Pruner)，按照模型前向计算的结构依赖关系，以及目标模型配置，随机裁剪矩阵权重的行和列。
+- 以上方法我们在开源的LLaMA2-13B和LLaMA2-7B中继续进行了实验，分别裁剪了模型50%的参数，并在20B的开源数据 [The Pile](https://github.com/EleutherAI/the-pile) 上进行了恢复训练，细节可参考我们的开源仓库：[Pruning-LLM](https://github.com/jordddan/Pruning-LLMs)
+
+### 模型裁剪
+#### 深度裁剪
+
+### 词表裁剪
+
+模型词表裁剪也是本项目的一个亮点，仅裁剪不常用的词表，可以裁剪近10%的参数而完全不损害模型性能。我们做了分析实验，一般来说，中文词需求的词表较少，而英文需要的模型词表较多，实验结果如下
+
+<center>
+<div align=center><img width="500" src="assets/emb.png"/></div>
+</center>
+
+词表裁剪代码以及使用说明请参考 [这里](./training/prune_vocab_emb/README.md).
 
 ## 免责声明
 
