@@ -1,0 +1,1926 @@
+[
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "当采用分块查找时，数据的组织方式为____",
+      "res1": "数据分成若干块， 每块内数据有序",
+      "res2": "数据分成若干块， 每块内数据不必有序， 但块间必须有序， 每块内最大（ 或最小） 的数据组成索引块",
+      "res3": "数据分成若干块， 每块内数据有序， 但块间必须有序， 每块内最大（ 或最小） 的数据组成索引块",
+      "res4": "数据分成若干块， 每块（ 除最后一块外） 中数据个数需相同",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "实现一个银行系统，包括存钱、取钱、转账等多项业务，最恰当的资源组合方式是____",
+      "res1": "继承",
+      "res2": "重载",
+      "res3": "组合",
+      "res4": "实例化",
+      "ans": "C"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "#include<iostream.h>\nclass date\n{\nprivate:\nint day,month,year;\npublic:\ndate(){}\ndate(int x,int y,int z){day=x;month=y,year=z;}\nvoid set(){day=1;month=10;year=2002;}\nvoid display(){cout<<day<<\"/\"<<month<<\"/\"<<year<<\"\";}\n};\nvoid main()\n{\ndate day1;\ndate day2(10,10,2002);\nday1.set();\nday1.display();\nday2.display();\n}\n上面C++程序运行的结果是____。",
+      "res1": "10/10/2002 1/10/2002",
+      "res2": "1/10/2002 10/10/2002",
+      "res3": "10/10/2002 10/10/2002",
+      "res4": "1/10/2002 1/10/2002",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "假定A是一个类的名字，下面四个语句总共会引发类A构造函数的调用多少次____\n①A *p=newA;\n②A p2[10];\n③A p3;\n④A *p4[10];",
+      "res1": "11",
+      "res2": "12",
+      "res3": "21",
+      "res4": "22",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "有以下程序代码\n#include<iostream>\nusing namespace std;\nclass integer{\npublic:\ninteger(int value=0):value(value){}\ninteger operator+(integer itg){\nreturn value+=itg.value;\n}\nfriend ostream&operator<<(ostream&os,integer&it){\nreturn os<<it.value;\n}\nprivate:\nint value;\n};\nint main()\n{\ninteger i;\ninteger ii;\nii=2+i;\ncout<<\"i=\"<<i<<\",\";\ncout<<\"ii=\"<<ii<<endl;\nreturn 0;\n}\n编译情况或运行时输出是____",
+      "res1": "i=0 ,ii=2",
+      "res2": "i=2 ,ii=2",
+      "res3": "i=0 ,ii=0",
+      "res4": "编译错误",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "在以下各种查找方法中，平均查找时间与结点个数无关的查找方法是____",
+      "res1": "顺序查找",
+      "res2": "折半查找",
+      "res3": "哈希查找",
+      "res4": "分块查找",
+      "ans": "C"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "读下面C++程序：\n#include<iostream.h>\nclass vehicle{\nprotected:\nint wheels;\npublic:\nvehicle(int in_wheels=4){wheels=in_wheels;}\nint get_wheels(){return wheels;}\n};\nvoid main()\n{\nvehicle unicyclel;\nvehicle unicycle2(3);\ncout<<\"Theunickele1has\"<<unicyclel.get_wheels()<<\"wheel.\\n\";\ncout<<\"Theunickele2has\"<<unicycle2.get_wheels()<<\"wheel.\\n\";\n}\n编译后输出结果为____。",
+      "res1": "The unicycle1 has 0 wheel.\nThe unicycle2 has 3 wheel.",
+      "res2": "The unicycle1 has 4 wheel.\nThe unicycle2 has 4 wheel.",
+      "res3": "The unicycle1 has 4 wheel.\nThe unicycle2 has 3 wheel.",
+      "res4": "The unicycle1 has 0 wheel.\nThe unicycle2 has 4 wheel.",
+      "ans": "C"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "以下说法正确的是____",
+      "res1": "在const成员函数中不可以使用this指针；",
+      "res2": "在static成员函数中不可以使用this 指针；",
+      "res3": "抽象类的成员函数都是纯虚函数；",
+      "res4": "抽象类的派生类必须实现抽象类中的纯虚函数。",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "一个n个顶点的连通无向图，其边的个数至少为____",
+      "res1": "n-1",
+      "res2": "n",
+      "res3": "n+1",
+      "res4": "nlogn",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "在C++程序中出现____情况时，将引发一个异常。",
+      "res1": "在 main 函数的结尾少了一个大括号",
+      "res2": "for 循环语法错误",
+      "res3": "被零除或数组溢出",
+      "res4": "数组没有被赋满值",
+      "ans": "C"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "线性表若采用链式存储结构时，要求内存中可用存储单元的地址____。",
+      "res1": "必须是连续的",
+      "res2": "部分地址必须是连续的",
+      "res3": "一定是不连续的",
+      "res4": "连续不连续都可以",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "在类中说明的友元函数时____",
+      "res1": "必须声明在私有成员部分",
+      "res2": "必须声明在共有成员部分",
+      "res3": "必须声明在类开始处",
+      "res4": "可以声明在类中任何地方",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "对有14个元素的有序表A[1..14]作二分查找，查找元素A[6]时的被比较元素依次为____",
+      "res1": "A[l], A[2], A[3], A[4]",
+      "res2": "A[l], A[14], A[7], A[4]",
+      "res3": "A[7], A[5], A[3], A[6]",
+      "res4": "A[7], A[3], A[5], A[6]",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "下列概念____体现了面向对象的多态性。",
+      "res1": "虚基类",
+      "res2": "虚函数",
+      "res3": "对象容器",
+      "res4": "封装",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "若有定义char s[]={'1','2','3','0','0','4','5'};则cout<<s的结果为____",
+      "res1": "1230045",
+      "res2": "12300",
+      "res3": "1230",
+      "res4": "123",
+      "ans": "C"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "在C++中，数据封装要解决的问题是____。",
+      "res1": "数据规范化排列",
+      "res2": "数据高速转换",
+      "res3": "避免数据丢失",
+      "res4": "保证数据完整性",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "在顺序表（长度为127）中插入一个元素平均要移动____个元素。",
+      "res1": "8",
+      "res2": "63.5",
+      "res3": "63",
+      "res4": "7",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "关于左值引用，下列用法或叙述不正确的是____",
+      "res1": "引用可以先定义，再赋值；",
+      "res2": "引用可以作为函数参数；",
+      "res3": "函数可以返回引用；",
+      "res4": "引用是另一个有名字变量的别名。",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "现今的软件或是操作系统往往都有32位和64位的不同的版本，主要的区别就是32位的应用程序中，使用32个二进制位（即4字节）来表示内存地址，64位软件则是用64个二进制位表示内存地址。于是，当我们在将一个程序编译为64位的程序时，有下列语句\ncout<<sizeof(int)<<\"\"<<sizeof(int*)<<\"\";\ncout<<sizeof(double)<<\"\"<<sizeof(double*)<<endl;\n其输出会是____;",
+      "res1": "4 4 8 8",
+      "res2": "4 4 8 4",
+      "res3": "4 8 8 8",
+      "res4": "4 8 4 8",
+      "ans": "C"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "下述哪一条是顺序存储结构的优点？____",
+      "res1": "存储密度大",
+      "res2": "插入运算方便",
+      "res3": "删除运算方便",
+      "res4": "可方便地用于各种逻辑结构的存储表示",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "将一棵有100个结点的完全二叉树从根这一层开始，每一层上从左到右依次对结点进行编号，根结点的编号为1，则编号为49的结点的左孩子编号为____。",
+      "res1": "98",
+      "res2": "99",
+      "res3": "50",
+      "res4": "48",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "下面哪种数据结构最适合用于创建一个优先级队列？____",
+      "res1": "栈",
+      "res2": "双向链表",
+      "res3": "单向链表",
+      "res4": "堆",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "关于多态性，下列说法错误的是____",
+      "res1": "C++语言的多态性分为编译时的多态性和运行时的多态性；",
+      "res2": "运行时的多态性可通过虚函数和函数重载实现；",
+      "res3": "编译时的多态性可通过模板实现；",
+      "res4": "实现运行时多态性的机制称为动态多态性。",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "关于构造函数，下列说法错误的是____",
+      "res1": "构造函数必须指定类型说明；",
+      "res2": "构造函数的函数名与类名相同；",
+      "res3": "构造函数可以设置缺省参数；",
+      "res4": "构造函数可以重载。",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "对于栈操作数据的原则是____。",
+      "res1": "先进先出",
+      "res2": "后进先出",
+      "res3": "后进后出",
+      "res4": "不分顺序",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "设栈S和队Q的初始状态均为空，元素abcdef依次通过栈S，一个元素出栈后即进队Q，若6个元素出栈的序列是cefdba，则栈S的容量至少应该是____",
+      "res1": "6",
+      "res2": "4",
+      "res3": "3",
+      "res4": "2",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "下面关于模版说法正确的是____。",
+      "res1": "类模版提供了一种对类中类型进行参数化的方法; 在实例化模版类时，实际的数据类型会代替与类成员或方法相关联的类型参数",
+      "res2": "类模版中必须包含类成员与类方法",
+      "res3": "不可以用自定义的数据类型实例化一个模版类",
+      "res4": "类模版中类方法的参数必须用占位符替代，而不能使用实际数据类型",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "现有一棵无重复关键字的AVL树，对其进行中序遍历可得到一个降序序列。下列关于该AVL树的叙述中，正确的是：____",
+      "res1": "根结点的度一定为 2",
+      "res2": "树中最小元素一定是叶结点",
+      "res3": "最后插入的元素一定是叶结点",
+      "res4": "树中最大元素一定是无左子树",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "计算算法的时间复杂度是属于一种____的方法。",
+      "res1": "事前统计",
+      "res2": "事前分析估算",
+      "res3": "事后统计",
+      "res4": "事后分析估算",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "假定AB为一个类，r2是AB类的对象，执行“AB r1=3;”时将自动调用该类的____",
+      "res1": "带一个整型参数的构造函数",
+      "res2": "无参构造函数",
+      "res3": "赋值运算符重载函数",
+      "res4": "拷贝构造函数",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "下列排序算法中，元素的移动次数与关键字的初始排列次序无关的是____",
+      "res1": "直接插入排序",
+      "res2": "冒泡排序",
+      "res3": "基数排序",
+      "res4": "快速排序",
+      "ans": "C"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "线性链表不具有的特点是____。",
+      "res1": "随机访问",
+      "res2": "不必事先估计所需存储空间大小",
+      "res3": "插入与删除时不必移动元素",
+      "res4": "所需空间与线性表长度成正比",
+      "ans": "A"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "设有一个递归算法如下：\nint fact(int n){\nif(n<=0)return 1;\nelse return n*fact(n-1);\n}\n下面正确的叙述是____",
+      "res1": "计算fact(n)需要执行n次递归",
+      "res2": "fact(7)=5040",
+      "res3": "此递归算法最多只能计算到fact(8)",
+      "res4": "以上结论都不对",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "在C++中，一个函数为void f(int=1,char='a'),另一个函数为void f(int),则它们____。",
+      "res1": "不能在同一程序中定义",
+      "res2": "可以在同一程序中定义并可重载",
+      "res3": "可以在同一程序中定义，但不可重载",
+      "res4": "以上说法都不正确",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "已知一个有向图的邻接矩阵表示，要删除所有从第i个结点发出的边，应____。",
+      "res1": "将邻接矩阵的第i行删除",
+      "res2": "将邻接矩阵的第i行元素全部置为0",
+      "res3": "将邻接矩阵的第i列删除",
+      "res4": "将邻接矩阵的第i列元素全部置为0",
+      "ans": "B"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "—组关键字序列A(12,14,3,16,8,7,10,17,5,11,9,6,13,15,4),为排成递增序利用堆排序的方法建立的初始的堆为____",
+      "res1": "（ 3， 4， 5, 8， 9， 7, 6, 17， 16， 14， 11， 12， 13， 15， 10 )",
+      "res2": "( 3， 5, 4, 8, 9， 7, 6， 17， 16， 14, 11， 12, 13， 15， 10 )",
+      "res3": "( 17, 16, 15, 14, 11, 13, 10, 12, 5, 8, 9, 6, 7， 3， 4 )",
+      "res4": "( 17, 16, 14, 15, 11, 13, 10, 12, 5, 8, 9, 6, 7, 3, 4 )",
+      "ans": "D"
+    }
+  },
+  {
+    "demo": [
+      {
+        "question": "在C++中，编写一个内联函数func,使用类型int的参数，求其平方并返回，返回值为int类型，下列定义____是正确的",
+        "res1": "int func(int x) {return (x*x);}",
+        "res2": "inline int func(int x) {return (x*x);}",
+        "res3": "int inline func(int x) {return (x*x);}",
+        "res4": "int func(int x) {return (x*x);}",
+        "ans": "B"
+      },
+      {
+        "question": "在有n(n>1000)个元素的升序数组A中查找关键字x。查找算法的伪代码如下所示。\nk=0;\nwhile(k<n且A[k]<x)k=k+3；\nif(k<n且A[k]==x)查找成功；\nelse if(k-1<n且A[k-1]==x)查找成功；\nelse if(k-2<n且A[k-2]==x)查找成功；\nelse 查找失败；\n本算法与折半查找算法相比，有可能具有更少比较次数的情形是____",
+        "res1": "当 x 不在数组中",
+        "res2": "当 x 接近数组开头处",
+        "res3": "当 x 接近数组结尾处",
+        "res4": "当 x 位于数组中间位置",
+        "ans": "B"
+      },
+      {
+        "question": "若森林F有15条边、25个结点，则F包含树的个数是____",
+        "res1": "8",
+        "res2": "9",
+        "res3": "10",
+        "res4": "11",
+        "ans": "C"
+      },
+      {
+        "question": "先序序列为a，b，c的不同二叉树的个数是____",
+        "res1": "3",
+        "res2": "5",
+        "res3": "4",
+        "res4": "6",
+        "ans": "B"
+      },
+      {
+        "question": "#include<iostream.h>\n#define SQR(x) x*x\nvoid main()\n{\nint a=10,k=2,m=1;\na/=SQR(k+m);cout<<a;\n}\n执行上面的C++程序后，a的值是____。",
+        "res1": "10",
+        "res2": "2",
+        "res3": "9",
+        "res4": "0",
+        "ans": "B"
+      }
+    ],
+    "data": {
+      "question": "若一个线性表中最常用的操作是取第1个元素和我第1个元素的前趋元素，则采用____存储方式最节省时间。",
+      "res1": "顺序表",
+      "res2": "单链表",
+      "res3": "双链表",
+      "res4": "单循环链表",
+      "ans": "A"
+    }
+  }
+]
