@@ -27,7 +27,12 @@
 
 ## 开源计划
 
-我们将开源多个版本的模型，目前正在整理中，将于近期上传。
+- [OpenBA-v2-chat](https://huggingface.co/OpenBA/OpenBA-v2-chat)
+- [OpenBA-v2-flan](https://huggingface.co/OpenBA/OpenBA-v2-flan)
+- [OpenBA-v2-pretrained](https://huggingface.co/OpenBA/OpenBA-v2-pretrained)
+- [OpenBA-v2-small-vocab](https://huggingface.co/OpenBA/OpenBA-v2-small-vocab)
+- [OpenBA-v2-ner](https://huggingface.co/OpenBA/OpenBA-v2-small-vocab)
+- [OpenBA-v2-code](https://huggingface.co/OpenBA/OpenBA-v2-small-vocab)
 
 ## 评测结果
 - 我们的模型大小为3B左右，并且在开源的Pile数据上进行训练。因此我们主要选取了3B左右并且在开源数据上训练的模型进行比较。
@@ -181,9 +186,18 @@ bash convert_megatron_to_hf_ckpt.sh # megatron模型转化为hf模型
 - 以上方法我们在开源的LLaMA2-13B和LLaMA2-7B中继续进行了实验，分别裁剪了模型50%的参数，并在20B的开源数据 [The Pile](https://github.com/EleutherAI/the-pile) 上进行了恢复训练，细节可参考我们的开源仓库：[Pruning-LLM](https://github.com/jordddan/Pruning-LLMs)
 
 ### 模型裁剪
-#### 深度裁剪
+#### 层裁剪
+| Models | #Params | Pruned-Enc | Pruned-Dec | Loss After Prune | Loss After training |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| OpenBA | 15B | - | - | - | 1.73 |
+| Direct Prune | 9.9 B | all | all | 2.69 | - |
+| Stage1 | 12.3B | [4,8] | [7,11,18,20,22,30] | 1.85 | 1.76 |
+| Stage2 | 11.0B | [6,10] | [4,16,27] | 1.90 | 1.80 |
+| Stage3 | 9.9B | - | [10,24,33] | 1.89 | 1.82 |
 
-### 词表裁剪
+#### 权重裁剪
+权重裁剪方法的介绍可以参考 [这里](https://github.com/jordddan/Pruning-LLMs)
+#### 词表裁剪
 
 模型词表裁剪也是本项目的一个亮点，仅裁剪不常用的词表，可以裁剪近10%的参数而完全不损害模型性能。我们做了分析实验，一般来说，中文词需求的词表较少，而英文需要的模型词表较多，实验结果如下
 
