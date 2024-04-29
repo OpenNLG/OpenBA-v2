@@ -5,7 +5,7 @@
   <a href=""><img alt="ata License" src="https://img.shields.io/badge/Data%20License-CC%20BY--NC%204.0-blue.svg"></a>
    <a href=""><img alt="Model License" src="https://img.shields.io/badge/Model%20License-GNU%20AGPL%203.0-red.svg"></a>
        <a href=""><img alt="Pretrained Models" src="https://img.shields.io/badge/🤗 HuggingFace-Pretrained Models-green"></a>
-    <a href="https://arxiv.org/abs/2402.16602"><img alt="Paper" src="https://img.shields.io/badge/📄-Paper-orange"></a>
+<!--     <a href="https://arxiv.org/abs/2402.16602"><img alt="Paper" src="https://img.shields.io/badge/📄-Paper-orange"></a> -->
     <a href="https://opennlg.cn/"><img src="https://img.shields.io/badge/Organization-OpenNLG%20Group-blueviolet"></a>
 </p>
 这是OpenBA-V2的官方代码。OpenBA-V2是OpenBA的二代模型，通过多阶段模型裁剪获得。模型仅有3.4B参数量，相较于第一代模型裁剪了77.3%的模型参数，但拥有接近的模型性能。
